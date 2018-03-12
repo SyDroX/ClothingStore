@@ -1,0 +1,35 @@
+
+.image01.mdl-card {
+    width: 320px;
+    height: 320px;
+    color: #fff;
+    background: url('images/pp.jpg') center / cover;
+}
+
+
+.demo-card-wide.mdl-card {
+    width: 320px;
+    height: 320px;
+    background: url('images/pp.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+
+
+.demo-card-image.mdl-card {
+    width: 320px;
+    height: 320px;
+    background: url('images/pp.jpg') center / cover;
+}
+.demo-card-image > .mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.demo-card-image__filename {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
